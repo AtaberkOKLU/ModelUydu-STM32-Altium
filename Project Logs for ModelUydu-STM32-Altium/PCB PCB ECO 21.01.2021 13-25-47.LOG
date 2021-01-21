@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=+3.3 Pin=P1-1
+Added Pin To Net: NetName=+3.3 Pin=P1-2
+Added Member To Class: ClassName=MainBoard Member=Component C16 C0402C104K8PACTU

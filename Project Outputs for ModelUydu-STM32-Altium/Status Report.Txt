@@ -1,0 +1,10 @@
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [ModelUydu-STM32-Altium.PrjPcb]
+   Generated File[ModelUydu-STM32-Altium.nsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 22:49:01 On 20.01.2021
