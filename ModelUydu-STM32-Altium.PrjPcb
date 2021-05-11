@@ -236,6 +236,13 @@ TerminationMaxC7=0
 TerminationPrefC7=0
 TerminationVCC7=5
 
+[Generic_SimulationProfiles]
+ActiveProfile=MGFNHIMQ
+ProfileId0=MGFNHIMQ
+ProfileName0=Mixed Sim Configuration
+OutputType0=AdvSimNetlist
+ConfigParameters0=Record=AdvSimNetlistView|SimulationName=Mixed Sim Configuration|OldCfgLoaded=True|TF_Enabled=False|PZ_Enabled=False|Noise_Enabled=False|TRAN_FourierEnabled=False|SheetsToNetlist=1|TF_Analysis=False|TF_Source=|TF_Reference=0|PZ_Analysis=False|PZ_Node1=|PZ_Node2=0|PZ_Node3=|PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|OP_Analysis=False|AnalysesDataSavedIndex=4|DC_PrimarySource=|DC_PrimaryStart=|DC_PrimaryStop=|DC_PrimaryStep=|DC_EnableSecondary=False|DC_SecondarySource=|DC_SecondaryStart=|DC_SecondaryStop=|DC_SecondaryStep=|DC_Analysis=False|AC_StartFrequency=1K|AC_StopFrequency=1G|AC_TestPoints=10|AC_SweepType=DEC|Noise_Analysis=False|Noise_Source=|Noise_Output=|Noise_Reference=0|Noise_Start=1K|Noise_Stop=1G|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|AC_Analysis=False|TRAN_StartTime=0|TRAN_StopTime=1m|TRAN_StepTime=10u|TRAN_MaxStepTime=10u|TRAN_UseInitialConditions=False|TRAN_FourierAnalysis=False|TRAN_FourierFundFreq=10|TRAN_FourierNumHarmonics=10|TRAN_Analysis=True|TRAN_AlwaysSetDefaults=False
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -267,25 +274,25 @@ Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
+OutputType1=SIMPLISSimulation
+OutputName1=SIMPLIS
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
-Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=Record=AdvSimNetlistView|SimulationName=Mixed Sim|OldCfgLoaded=True|ProfileId=JJVEHEIX
 OutputType2=SIMetrixSimulation
 OutputName2=SIMetrix
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
+OutputType3=AdvSimNetlist
+OutputName3=Mixed Sim
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=Record=AdvSimNetlistView|SimulationName=Mixed Sim Configuration|OldCfgLoaded=True|TF_Enabled=False|PZ_Enabled=False|Noise_Enabled=False|TRAN_FourierEnabled=False|SheetsToNetlist=1|TF_Analysis=False|TF_Source= |TF_Reference=0|PZ_Analysis=False|PZ_Node1= |PZ_Node2=0|PZ_Node3= |PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|OP_Analysis=False|AnalysesDataSavedIndex=4|DC_PrimarySource= |DC_PrimaryStart= |DC_PrimaryStop= |DC_PrimaryStep= |DC_EnableSecondary=False|DC_SecondarySource= |DC_SecondaryStart= |DC_SecondaryStop= |DC_SecondaryStep= |DC_Analysis=False|AC_StartFrequency=1K|AC_StopFrequency=1G|AC_TestPoints=10|AC_SweepType=DEC|Noise_Analysis=False|Noise_Source= |Noise_Output= |Noise_Reference=0|Noise_Start=1K|Noise_Stop=1G|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|AC_Analysis=False|TRAN_StartTime=0|TRAN_StopTime=1m|TRAN_StepTime=10u|TRAN_MaxStepTime=10u|TRAN_UseInitialConditions=False|TRAN_FourierAnalysis=False|TRAN_FourierFundFreq=10|TRAN_FourierNumHarmonics=10|TRAN_Analysis=True|TRAN_AlwaysSetDefaults=False|ProfileId=MGFNHIMQ|DocumentPath=D:\Projeler\ModelUydu-STM32-Altium\MainBoard.SchDoc
 
 [OutputGroup3]
 Name=Documentation Outputs
